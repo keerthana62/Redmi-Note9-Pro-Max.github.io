@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="style1.css">
+<style>
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+
+
+
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="Xiaomi-Redmi-Note-9-Pro-Max.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="Redmi-Note-9-pro-caracteristicas-10.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="parts.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="features.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="featres1.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); 
+}
+</script>
+<video width="100%" controls>
+  <source src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-9-pro-max/video2.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+  </video>
+  <h2> 32MP In-Display Selfie Camera</h2>
+  <video width="100%" controls>
+    <source src="https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-9-pro-max/video5.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+    </video>
+<!-- Start form code -->
+
+<div class="div-form-tourcms">
+	<h2>Contact form:</h2>
+	<form method="post" action="https://live.tourcms.com/enquiry.php">
+
+		<!-- Account settings -->
+		<input name="tourcms_account_id" value="" type="hidden" />
+		<input name="tourcms_channel_id" value="" type="hidden" />
+		<input name="tourcms_enquiry_key" value="" type="hidden" />
+		<input name="tourcms_return_url" value="" type="hidden" />
+		<input name="tourcms_problem_url" value="" type="hidden" />
+
+		<!-- Your fields -->
+		<ul class="flex-outer">
+			<input name="enquiry_type" value="General%20Enquiry" type="hidden" />
+			<li>
+				<label for="firstname">Name</label>
+				<input type="text" name="firstname" id="firstname" value="" placeholder="" />
+			</li>
+			<li>
+				<!-- Note: type="email" is not supported in IE9 and earlier. -->
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" value="" placeholder="example@example.com" />
+			</li>
+			<li>
+				<label for="address">Address</label>
+				<input type="text" name="address" id="address" value="" placeholder="" />
+			</li>
+			<li>
+				<label for="city">City</label>
+				<input type="text" name="city" id="city" value="" placeholder="" />
+			</li>
+			<li>
+				<!-- Note: type="tel" is supported only in Safari 8. -->
+				<label for="tel_home">Telephone no:</label>
+				<input type="tel" name="tel_home" id="tel_home" value="" placeholder="" />
+			</li>
+			<li>
+				<label for="enquiry_detail">Enquiry details</label>
+				<input type="text" name="enquiry_detail" id="enquiry_detail" value="" placeholder="" />
+			</li>
+
+			<li>
+				<input type="submit" value="submit" />
+			</li>
+		</ul>
+	</form>
+</div>
+
+<style type="text/css">
+
+	.hideme{display:none; visibility: hidden;}
+	.div-form-tourcms {font: inherit;color: #aaa;letter-spacing: 1px}
+	.div-form-tourcms h3{font-size:24px;}
+	.div-form-tourcms {width: 100%;max-width: 800px; margin: 0 auto;}
+	.div-form-tourcms .flex-outer {list-style-type: none;padding: 0;}
+	.div-form-tourcms .required > label:not(.error):after {content:" *";color:red;}
+	.div-form-tourcms .flex-outer > li:not(:last-child) {margin-bottom: 25px;}
+	.div-form-tourcms .flex-outer li input,.div-form-tourcms .flex-outer li textarea,.div-form-tourcms .flex-outer li select,.div-form-tourcms .flex-outer li select option{padding: 15px;border: none; background: #f2f2f2;}
+	.div-form-tourcms .flex-outer li input[type="submit"]{margin-left: auto;padding: 8px 16px;border: none;background: #333;color: #aaa;letter-spacing: .09em;border-radius: 2px; cursor:pointer;}
+	.div-form-tourcms .flex-outer li input[type="submit"]:hover{color:#fff;}
+	.div-form-tourcms .flex-outer {margin: 0 auto;}
+	.div-form-tourcms .flex-outer li {display: flex;flex-wrap: wrap;}
+	.div-form-tourcms .flex-outer li label{padding: 8px;font-weight: 300;letter-spacing: .09em;}
+	.div-form-tourcms .flex-outer li p {margin: 0;}
+	.div-form-tourcms .flex-outer li textarea{min-height: 100px;}
+	.div-form-tourcms li.required{position: relative;}
+	.div-form-tourcms label.error {clear: none; width: auto; color: red; font-size: .8em; padding-right: 0; padding-left: .5em; position: absolute;}
+	.divInputRadio {display: flex; justify-content: flex-start; align-content: space-between;}
+	.div-form-tourcms .inputRadio {flex:1;}
+	.div-form-tourcms .flex-outer li < label.error{padding-bottom:20px;}
+	.div-form-tourcms .flex-outer li{align-items: center;padding-bottom:0;}
+	.div-form-tourcms .flex-outer > li > label {flex: 1 0 160px;max-width: 240px;}
+	.div-form-tourcms .flex-outer > li > label + *,option {flex: 1 0 240px;}
+	.div-form-tourcms label.error {top: 40px; left:250px;}
+</style>
+
+<!-- Validation -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$("form[action='index.html/enquiry.php']").validate();
+</script>
+
+<!-- End form code -->
+</body>
+</html> 
+

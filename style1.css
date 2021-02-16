@@ -1,0 +1,23 @@
+h2 {
+  margin-top: 0;
+  text-align: left;
+  color: black;
+  border-width: thin;
+  width: 100%;
+}
+body {
+  font-size: 1.5em;
+  margin-left: 2%;
+  text-indent: 3em;
+  font-style: italic;
+  font-family: verdana, sans serif;
+}
+h3 {
+  margin-top: 0;
+  text-align: center;
+  color: black;
+  border: double;
+  border-color: lightpink;
+  border-width: thick;
+  width: 100%;
+}
