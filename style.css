@@ -1,0 +1,52 @@
+h2 {
+  margin-top: 0;
+  text-align: left;
+  color: black;
+  border: thin;
+  border-color: black;
+  width: 100%;
+  border-style: solid;
+}
+body {
+  font-size: 1.5em;
+  margin-left: 2%;
+  text-indent: 3em;
+  font-style: italic;
+  font-family: verdana, sans serif;
+  border-style: dashed;
+  border-color: black;
+}
+p {
+  font-family: "Tahoma";
+  border-width: thin;
+  width: 100%;
+  color: black;
+  margin-top: 470px;
+}
+#navbar {
+  overflow: hidden;
+  padding: 15px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 50%;
+  top: 0;
+  right: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  line-height: 15px;
+  font-size: 18px;
+}
+#navbar a:hover {
+  background-color: lightseagreen;
+  color: black;
+}
+h2:hover {
+  background-color: lightseagreen;
+  color: black;
+}
